@@ -1,0 +1,17 @@
+site_name: MKraken
+site_description: 'Official website of MKraken'
+site_author: 'Frank Weller'
+docs_dir: 'docs/'
+repo_name: 'mkrakennet.github.io'
+repo_url: 'https://github.com/mkrakennet/mkrakennet.github.io'
+nav:
+    - 'Home': 'index.md'
+theme:
+  language: en
+  name: 'material'
+  palette:
+    primary: deep purple
+    scheme: preference
+plugins:
+  - search
+  - git-revision-date-localized
